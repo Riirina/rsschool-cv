@@ -59,7 +59,7 @@ body {
 #main {
     overflow: hidden;
 }
-code {
+pre {
     background-color: #0000008f;
     border-radius: 50px;
 }

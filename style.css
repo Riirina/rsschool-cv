@@ -1,7 +1,152 @@
-h1 {
-    text-align: center;
-    font-weight: bold;
+@font-face {
+    font-family: Noto_Serif;
+    src: url("./fonts/NotoSerif/static/NotoSerif-Medium.ttf");
+  }
+* {
+    box-sizing: border-box;
+  }
+html {
+    scroll-behavior: smooth; 
+  }
+body {
+    background-image: url("./assets/img/фон.jpg");
+    background-size: cover;
+    font-family: Noto_Serif, Medium;
 }
-p {
-    text-decoration: dashed;
+#container {
+    border: 1px solid #ffffff;
+    width: 75%;
+    margin: auto;
+    border-radius: 50px;
+    background-color: #0000008f;
+}
+#header {
+    background-color: #0000008f;
+    float: left;
+    width: 32%;
+    border-radius: 50px 0px 0px 0px;
+    color: #f0f8ff;
+}
+#header h1 {
+    display: block;
+    text-align: center;
+    margin-bottom: 0px;
+    color: #f1ab9e;
+}
+#header h2 {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #f1ab9e;
+}
+#header p {
+    display: block;
+    margin: 10px 20px;
+}
+#me {
+    display: block;
+    margin: 50px auto;
+    max-width: 100%;
+    height: auto;
+}
+.Hobbies ul, .Skills ul {
+    column-count: 2;
+}
+.Skills li, .Languages li, .Hobbies li {
+    margin: 10px 10px;
+}
+#main {
+    overflow: hidden;
+}
+xmp {
+    background-color: #0000008f;
+    border-radius: 50px;
+}
+.Aboutme, .CodeAndProjects, .Education {
+    display: block;
+    margin: 0px 30px;
+    text-align: justify;
+    color: #f0f8ff;
+}
+.Aboutme h1, .CodeAndProjects h1, .Education h1 {
+    text-align: center;
+    color:#f1ab9e;
+}
+.Aboutme ul {
+    column-count: 2;
+}
+.CodeAndProjects table {
+    text-align: center;
+}
+.CodeAndProjects a:link, a:visited {
+    color: #f0f8ff;
+    text-decoration: none;
+}
+.CodeAndProjects a:hover {
+    color: #f1ab9e;
+    transition: color 0.5s ease;
+}
+#Listva, #Travelblog, #Doghunter {
+    padding: 10px;
+    max-width: 70%;
+    height: auto;
+}
+.Education table {
+    margin: 0px auto;
+}
+.Education td {
+    width: 700px;
+    height: 50px;
+    text-align: center;
+}
+.Education a:link, a:visited {
+    color:#f0f8ff;
+    text-decoration: none;
+}
+.Education a:hover {
+    color:#f1ab9e;
+    transition: color 0.5s ease;
+}
+#footer {
+    background-color: #0000008f;
+    min-height: 100px;
+    border-radius: 0px 0px 50px 50px;
+}
+#iconrs {
+    position: relative;
+    top: 20px;
+    right: 20px;
+    float: right;
+    margin: 0px 10px;
+    max-width: 100px;
+    min-width: 10px;
+    height: auto;
+}
+#iconGitHub {
+    position: relative;
+    top: 25px;
+    right: 20px;
+    float: right;
+    margin: 0px 10px;
+    max-width: 50px;
+    min-width: 10px;
+    height: auto;
+}
+#iconrs:hover, #iconGitHub:hover {
+    padding: 10px;
+    background-color: #f1ab9e;
+    border-radius: 10px;
+    transition: background-color 1s ease;
+}
+#footer h3 {
+    position: relative;
+    top: 40px;
+    right: 20px;
+    float:right;
+    margin: 0px 20px;
+    color: #f0f8ff;
+}
+.clearfix{
+    clear: both;
 }

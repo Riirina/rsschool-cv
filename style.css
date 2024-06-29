@@ -44,6 +44,9 @@ body {
     display: block;
     margin: 10px 20px;
 }
+#header li {
+    margin: 10px 10px;
+}    
 #me {
     display: block;
     margin: 50px auto;

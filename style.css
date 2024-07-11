@@ -72,7 +72,7 @@ pre {
     text-align: justify;
     color: #f0f8ff;
 }
-.Aboutme h1, .CodeAndProjects h1, .Education h1 {
+.Aboutme h2, .CodeAndProjects h2, .Education h2 {
     text-align: center;
     color:#f1ab9e;
 }

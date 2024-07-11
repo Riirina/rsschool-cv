@@ -20,31 +20,31 @@ body {
     border-radius: 50px;
     background-color: #0000008f;
 }
-#header {
+.header {
     background-color: #0000008f;
     float: left;
     width: 32%;
     border-radius: 50px 0px 0px 0px;
     color: #f0f8ff;
 }
-#header h1 {
+.header h1 {
     display: block;
     text-align: center;
     margin-bottom: 0px;
     color: #f1ab9e;
 }
-#header h2 {
+.header h2 {
     display: block;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 30px;
     color: #f1ab9e;
 }
-#header p {
+.header p {
     display: block;
     margin: 10px 20px;
 }
-#header li {
+.header li {
     margin: 10px 10px;
 }    
 #me {
@@ -59,7 +59,7 @@ body {
 .Skills li, .Languages li, .Hobbies li {
     margin: 10px 10px;
 }
-#main {
+.main {
     overflow: hidden;
 }
 pre {
@@ -111,7 +111,7 @@ pre {
     color:#f1ab9e;
     transition: color 0.5s ease;
 }
-#footer {
+.footer {
     background-color: #0000008f;
     min-height: 100px;
     border-radius: 0px 0px 50px 50px;
@@ -142,7 +142,7 @@ pre {
     border-radius: 10px;
     transition: background-color 1s ease;
 }
-#footer h3 {
+.footer h3 {
     position: relative;
     top: 40px;
     right: 20px;
